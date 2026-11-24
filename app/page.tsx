@@ -62,7 +62,7 @@ export default function Home() {
     e.preventDefault(); setError(""); setMessage("");
     if (!supabase) return;
     const { error } = await supabase.auth.signInWithPassword({ email, password });
-    if (error) setError("登入失敗，請檢查管理員帳號與密碼。");
+    if (error) setError("登入失敗：" + error.message);
     else { setMessage("管理員登入成功。"); setPassword(""); }
   }
 
