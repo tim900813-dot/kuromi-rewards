@@ -7,3 +7,8 @@
     url('/kuromi-bg.png') center top / cover fixed no-repeat,
     #1c1328 !important;
 }
+.hero {
+  background:
+    linear-gradient(#21152f66, #21152f99),
+    url('/kuromi-bg.png') center / cover no-repeat !important;
+}
