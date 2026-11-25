@@ -94,8 +94,8 @@ export default function Home() {
             <div className="mascot-bow">✦</div>
           </div>
           <p className="eyebrow">COLLECT POINTS · UNLOCK HAPPINESS</p>
-          <h1>KUROMI <span>REWARDS</span></h1>
-          <p className="subtitle">集滿 30 點，解鎖你的專屬獎勵</p>
+          <h1>豬頭老大 <span>♡</span></h1>
+          <p className="subtitle">不乖就讓妳青一塊紫一塊♡</p>
           <div className="sparkle s1">✦</div><div className="sparkle s2">✧</div><div className="sparkle s3">♡</div>
         </header>
 
